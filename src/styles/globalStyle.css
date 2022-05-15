@@ -1,0 +1,9 @@
+*{
+    outline: none;
+    border: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}

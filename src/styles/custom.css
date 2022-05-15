@@ -1,0 +1,24 @@
+.btn-yellow:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255, 166, 0, 0.669) !important;
+}
+
+.btn-yellow:hover,
+.btn-yellow { 
+    color: white;
+    background-color:  orange;
+}
+
+.input-orange:focus {
+    border-color: orange !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem  rgba(255, 166, 0, 0.669) !important;
+}
+
+.image-icon {
+    display: flex;
+}
+
+.image-icon img {
+    margin-right: 10px;
+}
