@@ -1,0 +1,79 @@
+.main-container-d { 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row; 
+    position: relative;
+}
+
+.main-container-d::before{
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.2;
+    content: " ";
+    background: url(https://www.isptec.co.ao/public/assets/img/uploads/4edicao.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100%;
+}
+
+.left-container-d {
+    display: flex;  
+    align-items: center;
+    margin-top: -20vh;
+    justify-content: center;
+    width: 400px; 
+}
+
+.list-menus {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.list-menus li {
+    background-color: white;
+    padding-top: 5px;
+    display: flex;
+    align-items: center; 
+    padding-left: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid black;
+    width: 190px;
+    transition: 0.4s;
+}
+
+.list-menus li {
+    opacity: 0.2;
+}
+
+.list-menus li:active{
+    transform: scale(0.6);
+}
+
+.list-menus li[active=true],
+.list-menus li:hover {   
+    border-radius: 10px 10px 0px 0px; 
+    opacity: 1;
+    margin-left: -25px !important;
+    color: orange;
+    border-color: orange;
+    box-shadow: 0px 10px 30px 10px rgba(0,0,0,0.1);
+}
+
+.list-menus * {
+    cursor: pointer;
+}
+
+.image-icons-menu {
+    margin-right: 10px;
+}
+
+.right-container-d { 
+    width: 100%;
+    height: 100%;
+}
