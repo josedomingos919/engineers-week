@@ -15,7 +15,7 @@
     border-top: 5px solid orange;
     box-shadow: 0px 5px 50px  35px rgba(0,0,0,0.02);
 
-    animation-name: example;
+    animation-name: example-form;
     animation-duration: 1.3s;
 }
 
@@ -129,7 +129,7 @@ table tr td:last-child{
     text-align: center;
 }
 
-@keyframes example { 
+@keyframes example-form { 
     from { transform: scale(0) rotate(-360deg);  }
     to {   transform: scale(1) rotate(360deg);  } 
   }
