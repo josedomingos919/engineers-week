@@ -5,6 +5,9 @@
     flex-direction: column;
     align-items: center; 
     margin-top:  15vh;
+ 
+    animation-name: example;
+    animation-duration: 1.3s;
 }
 
 .container-logo {
@@ -40,8 +43,24 @@
     top:0; 
     left: 0;
     opacity: 0.1;
+    
+    animation-name: example-opacity;
+    animation-duration: 4s;
 }
   
 body { 
     overflow: hidden;
 }
+
+
+@keyframes example { 
+    from { margin-top: -2000px;  }
+    to { margin-top:  15vh; } 
+}
+   
+
+@keyframes example-opacity { 
+    from { opacity: 0;  }
+    to { opacity: 0.1; } 
+}
+   
