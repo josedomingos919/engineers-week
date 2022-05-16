@@ -1,3 +1,4 @@
+import { LayoutMarathon } from "../../components/layout/marathon";
 import { LayoutSchedule } from "../../components/layout/schedule";
 import { icons } from "../../shared";
 import { colors } from "../../shared/colors";
@@ -25,6 +26,7 @@ export const menus = [
         alt="auto"
       />
     ),
+    component: <LayoutMarathon />,
   },
   {
     label: "Problema",
