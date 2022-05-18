@@ -21,10 +21,8 @@ export const List = () => {
         <thead>
           <tr>
             <th scope="col">ID</th>
-            <th scope="col">Actividade</th>
-            <th scope="col">Data</th>
-            <th scope="col">Local</th>
             <th scope="col">Descrição</th>
+            <th scope="col">Nível</th>
             <th className="table-text-center" scope="col">
               Opções
             </th>
@@ -35,8 +33,6 @@ export const List = () => {
             <th scope="row">1</th>
             <td>Mark</td>
             <td>Otto</td>
-            <td>@mdo</td>
-            <td>@fat</td>
             <td>
               <div
                 class="btn-group"
@@ -56,8 +52,6 @@ export const List = () => {
             <th scope="row">2</th>
             <td>Jacob</td>
             <td>Thornton</td>
-            <td>@fat</td>
-            <td>@fat</td>
             <td>
               <div
                 class="btn-group"
@@ -76,8 +70,6 @@ export const List = () => {
           <tr>
             <th scope="row">3</th>
             <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-            <td>@fat</td>
             <td>
               <div
                 class="btn-group"

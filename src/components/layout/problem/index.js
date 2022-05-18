@@ -1,9 +1,8 @@
-import "./style.css";
-
 import { useSchedule } from "./state";
+import "./style.css";
 import { menus } from "./util";
 
-export const LayoutSchedule = () => {
+export const LayoutProblem = () => {
   const { selectedMenu, setSelectedMenu } = useSchedule();
 
   return (
@@ -13,7 +12,7 @@ export const LayoutSchedule = () => {
           <ul className="form-menu-steps">
             {menus.map(({ activeIcon, label, normalIcon }, index) => (
               <li
-                active={`${selectedMenu === index}`}
+                active={selectedMenu === index ? "true" : "false"}
                 onClick={() => setSelectedMenu(index)}
               >
                 {selectedMenu === index ? activeIcon : normalIcon}

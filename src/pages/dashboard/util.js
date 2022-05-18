@@ -1,4 +1,5 @@
 import { LayoutMarathon } from "../../components/layout/marathon";
+import { LayoutProblem } from "../../components/layout/problem";
 import { LayoutSchedule } from "../../components/layout/schedule";
 import { icons } from "../../shared";
 import { colors } from "../../shared/colors";
@@ -38,6 +39,7 @@ export const menus = [
         alt="auto"
       />
     ),
+    component: <LayoutProblem />,
   },
   {
     label: "Sair",

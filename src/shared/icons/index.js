@@ -4,6 +4,14 @@ const defaultProps = {
 };
 
 export const icons = {
+  level: ({ color = defaultProps.color, size = defaultProps.size }) =>
+    `https://img.icons8.com/ios-glyphs/${size}/${color}/stairs-up.png`,
+  group: ({ color = defaultProps.color, size = defaultProps.size }) =>
+    `https://img.icons8.com/ios-glyphs/${size}/${color}/conference-call--v1.png`,
+  classification: ({ color = defaultProps.color, size = defaultProps.size }) =>
+    `https://img.icons8.com/ios-glyphs/${size}/${color}/star-half-empty.png`,
+  text: ({ color = defaultProps.color, size = defaultProps.size }) =>
+    `https://img.icons8.com/ios-glyphs/${size}/${color}/text-color.png`,
   user: ({ color = defaultProps.color, size = defaultProps.size }) =>
     `https://img.icons8.com/ios-glyphs/${size}/${color}/user--v1.png`,
   password: ({ color = defaultProps.color, size = defaultProps.size }) =>

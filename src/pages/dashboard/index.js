@@ -12,8 +12,9 @@ export const Dashboard = () => {
         <ul className="list-menus">
           {menus.map(({ label, left, icon }, index) => (
             <li
+              key={index}
               onClick={() => setActiveIndex(index)}
-              active={activeIndex === index ? "true" : "false"}
+              active={`${activeIndex === index}`}
               style={{ marginLeft: left }}
             >
               {icon}

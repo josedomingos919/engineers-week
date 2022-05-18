@@ -11,7 +11,7 @@ export const List = () => {
         <input
           type="text"
           class="form-control input-orange"
-          placeholder="ex.: partida"
+          placeholder="Pesquisar..."
           aria-label="Username"
           aria-describedby="basic-addon1"
         />
@@ -20,10 +20,10 @@ export const List = () => {
       <table class="table table-striped">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">ID</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Classificação</th>
+            <th scope="col">Membros</th>
             <th className="table-text-center" scope="col">
               Opções
             </th>
